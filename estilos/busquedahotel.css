@@ -1,0 +1,44 @@
+
+        body{
+            width: 99%;
+
+
+        }
+         header{
+             background:rgba(165,207,233);
+             color:rgb(35, 35, 39);
+             align-content: center;
+             height:3em;
+
+         }
+         nav{
+
+             height:10em;
+
+         }
+         section{
+             background: rgb(240, 230, 230);
+             height:50em;
+         }
+         footer{
+             background: rgb(165, 207, 233);
+             color:rgb(0, 0, 0);
+             height:15em;
+
+         }
+         aside{
+             background: rgb(125, 192, 189);
+             color: rgb(0, 0, 0);
+             height:5em;
+
+         }
+         #articulo1{/* 
+             background: rgb(241, 238, 238); */
+             color:rgb(15, 15, 15);
+             /* font-size: x-large; */
+         }
+         .articulov{
+             /* font-family: 'Courier New', Courier, monospace; */
+             font-size: 27px;
+             background: rgb(255, 255, 255);
+         }
