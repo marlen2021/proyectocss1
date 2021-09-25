@@ -1,29 +1,57 @@
 .myDiv {
-    border: 1px black;
-    background-color: rgb(165, 207, 233);    
-    text-align: center;
-  }
-  .myDiv {
-    border: 1px black;
-    background-color: rgb(165, 207, 233);    
-    text-align: center;
-  }
-  
-  
-  
-  
-  #content { 
-    overflow:auto; 
-    width: 1000px; 
-    background: rgb(165, 207, 233) ; 
-  } 
-  
-  #left, #right { 
-    width: 40%; 
-    margin:5px; 
-    padding: 1em; 
-    background: rgb(165, 207, 233); 
-  } 
-  
-  #left  { float:left;  }
-  #right { float:right; } 
+  border: 1px black;
+  background-color: white;    
+  text-align: center;
+  color: black
+}
+
+
+.myDiv {
+  border: 1px blck;
+  background-color: white;    
+  text-align: center;
+}
+div{
+background-image 
+}
+
+#principal{ 
+  background;
+}   
+
+#content { 
+  overflow:auto; 
+  width: 1000px; 
+  background: black ; 
+} 
+
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 1em; 
+  background: black; 
+} 
+
+#left  { float:left;  }
+#right { float:right; } 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
