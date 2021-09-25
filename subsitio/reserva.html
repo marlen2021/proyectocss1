@@ -3,68 +3,142 @@
 <title>Reserva</title>
 
 <head>
+ <meta charset="utf-8">
+<meta  name="viewport"    content="width=device-width,initial-scale=1.0"  >
+  
   <link rel="stylesheet" href="../bootstrap.min.css">
   <link rel="stylesheet" href="../estilos/reserva.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="myDiv">
-  <h2>Reserva pasajeros </h2>
-  <p>Ingrese en los campos los datos de Reserva</p>
-</div>
-<nav> <center>
-    <p><h3>Ingrese los valores a los campos establecidos</h4></p></center>
-      <center><img src="../botones/reserva.png" class="avatar" alt="Avatar Image"></center>
-<hr>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            <img src="../imagenes/logo01.png" class="Avatar" alt="Avatar Image">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar" >1</span>
+                <span class="icon-bar">2</span>
+                <span class="icon-bar">3</span>                        
+              </button>
+              <a class="navbar-brand" href="../imagenes/logo01.png">Logo</a>
+            </div>
 
-<div class="myDiv">
-  <h2>Responder a través de: </h2>
-  <p>Seleccione la  respuesta</p>
-</div>
-<form action="/action_page.php" method="get"  class="myDiv">
-  <input type="checkbox" name="vehicle1" value="email">
-  <label for="email"> Email</label><br>
-  <input type="checkbox" name="vehicle2" value="telefono">
-  <label for="telefono"> Telefono</label><br>
-  <input type="checkbox" name="correo" value="correo" checked>
-  <label for="correo"> Correo</label><br><br>
-  <input type="submit" value="Respuesta">
-</form>
+          </div>
+        </nav>
 
-<div class="myDiv">
-  <h2>Reserva condominio al cual quiere ingresar </h2>
-  <p>Seleccione calendario de reserva</p>
-</div>
-<form action="/action_page.php" class="myDiv">
-        <label for="cars">Condominio seleccion:</label>
-        <select name="cars" id="cars">
-          <option value="cbogota">condominio bogota</option>
-          <option value="cmedellin">condominio medellin</option>
-          <option value="ccali">condominio cali</option>
-          <option value="cvillavicencio">condominio villavicencio</option>
-        </select>
-  <br><br>
-    <label for="fingreso">Fecha de ingreso:</label>
-    <input type="date" id="fingreso" name="fingreso">
-    <label for="fsalida">Fecha de salida:</label>
-    <input type="date" id="fsalida" name="fsalida"><br><br>
-    <label for="nvisitantes">Número de visitantes  :</label>
-    <input type="text" id="nvisitantes" name="nvisitantes">
-    <label for="nhabitaciones">Número de habitaciones:</label>
-    <input type="text" id="nhabitaciones" name="nhabitaciones">
-    <label for="nnoches">Número de noches:</label>
-    <input type="text" id="nnoches" name="nnoches"><br><br>
-    <label for="comentarios">Comentarios y consultas:</label><br><br>
-    <textarea id="comentarios" name="comentarios" rows="4" cols="50">
-      Comentarios o consultas.
-    </textarea><br><br>
 
-       
+        <div class="container-fluid">
+
+          <div class="row content">
+            <div class="col-sm-3 sidenav">
+
+
+
+
+              <h4>John's Blog</h4>
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#section1">Home</a></li>
+                <li><a href="#section2">Friends</a></li>
+                <li><a href="#section3">Family</a></li>
+                <li><a href="#section3">Photos</a></li>
+                
+              </ul><br>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Blog..">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-sm-9">
+              <div class="myDiv">
+          <h2>Reserva de pasajeros </h2>
+          <p>Ingrese en los campos los datos de Reserva</p>
           
-            <input type="submit" value="Enviar">
-</form>
+        </div>
+        <nav> <center>
+            <p><h3>Ingrese los valores a los campos establecidos</h4></p></center>
+              <center><img src="../botones/reserva.png" class="Avatar" alt="Avatar Image"></center>
+              
+        <hr>
+
+        <div class="myDiv">
+          <h2>Responder a través de: </h2>
+          <p>Seleccione la  respuesta</p>
+        </div>
+        <form action="/action_page.php" method="get"  class="myDiv">
+          <input type="checkbox" name="vehicle1" value="email">
+          <label for="email"> Email</label><br>
+          <input type="checkbox" name="vehicle2" value="telefono">
+          <label for="telefono"> Telefono</label><br>
+          <input type="checkbox" name="correo" value="correo" checked>
+          <label for="correo"> Correo</label><br><br>
+          <input type="submit" value="Respuesta">
+        </form>
+
+        <div class="myDiv">
+          <h2>Reserva condominio al cual quiere ingresar </h2>
+          <p>Seleccione calendario de reserva</p>
+        </div>
+        <form action="/action_page.php" class="myDiv">
+                <label for="cars">Condominio seleccion:</label>
+                <select name="cars" id="cars">
+                  <option value="cbogota">condominio bogota</option>
+                  <option value="cmedellin">condominio medellin</option>
+                  <option value="ccali">condominio cali</option>
+                  <option value="cvillavicencio">condominio villavicencio</option>
+                </select>
+          <br><br>
+            <label for="fingreso">Fecha de ingreso:</label>
+            <input type="date" id="fingreso" name="fingreso">
+            <label for="fsalida">Fecha de salida:</label>
+            <input type="date" id="fsalida" name="fsalida"><br><br>
+            <label for="nvisitantes">Número de visitantes  :</label>
+            <input type="text" id="nvisitantes" name="nvisitantes">
+            <label for="nhabitaciones">Número de habitaciones:</label>
+            <input type="text" id="nhabitaciones" name="nhabitaciones">
+            <label for="nnoches">Número de noches:</label>
+            <input type="text" id="nnoches" name="nnoches"><br><br>
+            <label for="comentarios">Comentarios y consultas:</label><br><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50">
+             
+            </textarea><br><br>
+            
+              
+                  
+                    <input type="submit" value="Enviar">
+        </form>
+
+
+
+              
+              
+            </div>
+          </div>
+        </div>
 
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <footer>
