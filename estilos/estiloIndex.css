@@ -21,18 +21,16 @@ body {
 
  }
  nav{
-     height: 10em;
+   color: white;
+   margin: 1%;
+   padding: 5px;
+   height: 3em; 
+   background: rgba(0, 0, 0, 0.623);
  }
- #botones img{
-    color:rgb(255, 255, 255);
- }
- .boton  img{
-    background: rgb(0, 0, 0);
-    color: #fff;
-    height: 5px;
-    width: 5px;
-    padding: auto;
- }
+ .btn btn-outline-primary{
+  color: white;
+}
+
  footer{
     background:rgba(0, 0, 0, 0.726);
     color:rgb(255, 255, 255);
