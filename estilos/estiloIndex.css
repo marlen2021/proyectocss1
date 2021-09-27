@@ -27,9 +27,6 @@ body {
    height: 3em; 
    background: rgba(0, 0, 0, 0.623);
  }
- .btn btn-outline-primary{
-  color: white;
-}
 
  footer{
     background:rgba(0, 0, 0, 0.726);
