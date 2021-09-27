@@ -2,10 +2,9 @@
         body{
             background-image: url(../imagenes/fondologin.jpg);
             width: 99%;
-
         }
          header{
-             background:rgb(0, 0, 0);;
+             background:rgba(0, 0, 0, 0.657);
              color:rgb(255, 255, 255);
              align-content: center;
              height:7em;
@@ -38,7 +37,7 @@
              height:5em;
 
          }
-         #articulo1{
+         #articulo1 {
              background: rgba(63, 54, 54, 0.794);
              color:rgb(255, 255, 255);
              /* font-size: x-large; */
