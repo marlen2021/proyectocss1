@@ -21,10 +21,12 @@ body {
 
  }
  nav{
-     height: 10em;
- }
- #botones img{
-    color:rgb(255, 255, 255);
+  color: white;
+  margin: 1%;
+  padding: 5px;
+  height: 3em; 
+  background: rgba(0, 0, 0, 0.623);
+}
  }
  .boton  img{
     background: rgb(0, 0, 0);
