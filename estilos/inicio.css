@@ -7,7 +7,7 @@ body {
     height: 100vh;
   }
  header{
-    background:black;
+    background:rgba(0, 0, 0, 0.603);
      color:rgb(255, 255, 255);
      text-align: auto;
      align-content: auto;
@@ -34,7 +34,7 @@ body {
     padding: auto;
  }
  footer{
-    background:black;
+    background:rgba(0, 0, 0, 0.719);
     color:rgb(255, 255, 255);
      height:2em;
  }
