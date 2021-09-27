@@ -5,11 +5,16 @@
 
         }
          header{
-             background:rgba(165,207,233);
-             color:rgb(35, 35, 39);
+             background:rgb(0, 0, 0);
+             color:rgb(255, 255, 255);
              align-content: center;
-             height:3em;
-
+             height:7em;
+             padding: 0%;
+             margin: 1%;
+         }
+         header img{
+             height: 50px;
+             width: 300px;
          }
          nav{
 
@@ -18,12 +23,13 @@
          }
          section{
              background: rgb(240, 230, 230);
-             height:50em;
+             height:22em;
          }
          footer{
-             background: rgb(165, 207, 233);
-             color:rgb(0, 0, 0);
+             background-image: url(../imagenes/fondologin.jpg);
+             color:rgb(255, 255, 255);
              height:15em;
+             padding: 1%;
 
          }
          aside{
