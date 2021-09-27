@@ -1,5 +1,6 @@
 
         body{
+            background-image: url(../imagenes/fondologin.jpg);
             width: 99%;
 
         }
@@ -16,28 +17,30 @@
              align-items: flex-end;
          }
          nav{
+             background: rgba(0, 0, 0, 0.609);
              height:10em;
+             color: white;
 
          }
          section{
-             background: rgb(240, 230, 230);
-             height:35em;
+              height:35em;
+              
          }
          footer{
-             background-image: url(../imagenes/fondologin.jpg);
+             background: rgba(22, 21, 21, 0.794);
              color:rgb(255, 255, 255);
              height:16em;
              padding: 2%;
 
          }
          aside{
-             color: rgb(0, 0, 0);
+             color: rgb(255, 255, 255);
              height:5em;
 
          }
-         #articulo1{/* 
-             background: rgb(241, 238, 238); */
-             color:rgb(15, 15, 15);
+         #articulo1{
+             background: rgba(63, 54, 54, 0.794);
+             color:rgb(255, 255, 255);
              /* font-size: x-large; */
          }
          .articulov{
