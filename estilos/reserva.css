@@ -4,15 +4,20 @@
   text-align: center;
   color: black
 }
-
-
 .myDiv {
   border: 1px blck;
   background-color: white;    
   text-align: center;
 }
+#logp {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  bottom: ;
+  
+}
 div{
-background-image 
+background-image: none
 }
 
 #principal{ 
@@ -34,9 +39,10 @@ background-image
 
 #left  { float:left;  }
 #right { float:right; } 
-.navbar {
+.navbar-brand {
   margin-bottom: 0;
   border-radius: 0;
+  
 }
 footer {
   background-color: #f2f2f2;
@@ -50,7 +56,7 @@ footer {
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
+@media (max-width: 60px) {
 .carousel-caption {
   display: none; 
 }
