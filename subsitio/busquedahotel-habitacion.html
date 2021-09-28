@@ -15,18 +15,22 @@
 <body>
     
     <a name="arriba"></a>
-    <header> <center><h1>Busqueda de Hoteles y Habitaciones</h1></center>
+    <header>
+        <img src="../imagenes/checkinBGA.png" alt="logo">
+         <center>
+        <h1>Busqueda de Hoteles y Habitaciones</h1>
+    </center>
         
 </header>
 <br>
-
 <center>
     <a href="../subsitio/inicio.html"><img src="../botones/inicio.png" wdth="40" height="40" alt="ir a registro"> </a>
-    <a href="../subsitio/reserva.html" ><img src="../botones/Reservar.png" wdth="40" height="40" alt="ir a reserva"> </a>
-    <a href="../subsitio/historial.html" ><img src="../botones/Historial.png" wdth="40" height="40" alt="historial"> </a>
-    <a href="../subsitio/galeria.html"><img src="../botones/Galería.png" wdth="40" height="40" alt="ir galeria"> </a> 
-    <a href="../subsitio/darsedebaja.html" ><img src="../botones/DarseDeBaja.png" wdth="40" height="40" alt="darse de baja"> </a>
-    <a href="../subsitio/ajustesdeperfil.html" ><img src="../botones/AjustesDePerfil.png" wdth="40" height="40" alt="ajustes de perfil"> </a>
+    <a class="btn btn-outline-info" href="../subsitio/reserva.html" ><b>Reservar</b> </a>
+    <a class="btn btn-outline-info" href="../subsitio/historial.html" ><b>Historial</b> </a>
+    <a class="btn btn-outline-info" href="../subsitio/busquedahotel-habitacion.html" > <b>buscar Habitacion</b></a>
+    <a class="btn btn-outline-info" href="../subsitio/galeria.html"> <b>Galeria</b></a> 
+    <a class="btn btn-outline-info" href="../subsitio/darsedebaja.html" > <b>Darse de baja</b> </a>
+    <a class="btn btn-outline-info" href="../subsitio/ajustesdeperfil.html" > <b>Ajustes de perfil</b> </a>    
 </center>
 <br>
 <!-- EMPIEZA EL NAV -->
@@ -73,13 +77,14 @@ Hotel:
  
     Busqueda por Codigo<input type="text" placeholder="Buscar">
 
-</center></nav>
+</center>
+</nav>
     <section>
          <a href="#abajo">Ir al pie de pagina</a>
 
         <article id="articulo1">
-            
-        <table align="center" cellspacing="10px" cellspacing="0" border="2">
+            <center>
+        <table id="tabla" align="center" cellspacing="10px" cellspacing="0" border="4">
             <tr>
                 <th><center><h6>Codigo</h6></center></th>
                 <th><center><h6>Hotel<h6></center></th>
@@ -224,6 +229,7 @@ Hotel:
     
         </tr>
     </table>
+</center>
     
     <!-- TERMINA LA TABLA -->
         </article>

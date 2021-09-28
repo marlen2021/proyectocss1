@@ -6,35 +6,30 @@ body {
     font-family: sans-serif;
     height: 100vh;
   }
- header{
-    background:black;
+  header{
+    background:rgba(0, 0, 0, 0.589);
      color:rgb(255, 255, 255);
      text-align: auto;
      align-content: auto;
-     height: 6em;
-     padding: 15px;
+     height: 7em;
+     padding: 3px;
  }
  header img{
-     height: 100px;
-     width: 100px;
-     margin-top: -170px;
-     padding: auto;
+  height: 50px;
+  width: 300px;
+  align-items: flex-end;
+
  }
  nav{
-     height: 10em;
+   color: white;
+   margin: 1%;
+   padding: 5px;
+   height: 3em; 
+   background: rgba(0, 0, 0, 0.623);
  }
- #botones img{
-    color:rgb(255, 255, 255);
- }
- .boton  img{
-    background: rgb(0, 0, 0);
-    color: #fff;
-    height: 5px;
-    width: 5px;
-    padding: auto;
- }
+
  footer{
-    background:black;
+    background:rgba(0, 0, 0, 0.726);
     color:rgb(255, 255, 255);
      height:2em;
  }
