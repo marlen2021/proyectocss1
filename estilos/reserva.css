@@ -1,23 +1,45 @@
+header{
+  background:rgba(0, 0, 0, 0.637);;
+  color:rgb(255, 255, 255);
+  align-content: center;
+  height:7em;
+  margin: 1%;
+}
+header img{
+  height: 90px;
+  width: 400px;
+  align-items: flex-end;
+}
+
 .myDiv {
-  border: 1px black;
-  background-color: white;    
+  border: 1px white;
+  background-color: rgb(255, 255, 255);    
   text-align: center;
   color: black
 }
 .myDiv {
-  border: 1px blck;
-  background-color: white;    
+  border: 1px rgb(0, 0, 0);
+  background-color:rgba(47, 46, 46, 0.582);    
   text-align: center;
+  color: white;
 }
 #logp {
-  height: 80px;
-  width: 80px;
-  position: relative;
-  bottom: ;
+  height: 90px;
+  width: 90px;
+  position:none;
+  bottom:center;
   
 }
 div{
-background-image: none
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondologin.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
 }
 
 #principal{ 
@@ -27,14 +49,14 @@ background-image: none
 #content { 
   overflow:auto; 
   width: 1000px; 
-  background: black ; 
+  background: white ; 
 } 
 
 #left, #right { 
   width: 40%; 
   margin:5px; 
   padding: 1em; 
-  background: black; 
+  background: white); 
 } 
 
 #left  { float:left;  }
@@ -45,7 +67,7 @@ background-image: none
   
 }
 footer {
-  background-color: #f2f2f2;
+  background-color: #0303033a;
   padding: 25px;
 }
 
