@@ -7,7 +7,7 @@ body {
     height: 100vh;
   }
   header{
-    background:rgba(0, 0, 0, 0.589);
+    background:rgba(0, 0, 0, 0.582);
      color:rgb(255, 255, 255);
      text-align: auto;
      align-content: auto;
@@ -18,18 +18,21 @@ body {
   height: 50px;
   width: 300px;
   align-items: flex-end;
-
  }
  nav{
    color: white;
    margin: 1%;
    padding: 5px;
    height: 3em; 
-   background: rgba(0, 0, 0, 0.623);
+   /* background: rgba(0, 0, 0, 0.623); */
+ }
+ nav image{
+   background-color: black;
+   color: black;
  }
 
  footer{
-    background:rgba(0, 0, 0, 0.726);
+    /* background:rgba(0, 0, 0, 0.726); */
     color:rgb(255, 255, 255);
      height:2em;
  }
