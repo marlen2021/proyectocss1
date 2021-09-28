@@ -1,14 +1,14 @@
 
         body{
-            margin: auto;
-            padding: auto;
-            background-size: cover;
+            margin: 0;
+            padding: 0;
+            background-size:inherit;
             font-family: sans-serif;
             height: 100vh;   
         }
  
         header{
-            background:black;
+            background:rgba(0, 0, 0, 0.885);
              color:rgb(255, 255, 255);
              text-align: auto;
              align-content: auto;
@@ -27,14 +27,14 @@
 
          }
          section{
-             background: rgb(0, 0, 0);
+             
              color:rgb(255, 255, 255);
              height:2em;
          }
          footer{
-            background:black;
+            background:rgba(0, 0, 0, 0.885);
             color:rgb(255, 255, 255);
-            height: 15em;
+            height: 5em;
          }
         
          
