@@ -1,40 +1,52 @@
-
         body{
-            width: 99%;
-
-
+            margin: 0;
+            padding: 1%;
+            background: url(../imagenes/descarga\ \(3\).png) no-repeat center top;
+            background-size: cover;
+            font-family: sans-serif;
+            /* height: 100vh; */
+            height: 100%;
+            width: 100%;
+            max-width: 1920px;
         }
          header{
-            background: rgb(165, 207, 233);
-             color:rgb(35, 35, 39);
+            background: rgba(0, 0, 0, 0.246);
+             color:rgb(255, 255, 255);
              align-content: center;
-             height:3em;
-
+             height:7em;
+             width: 98%;
          }
-         nav{
-           
+         #botones {
+             width: 58%;
+             background: rgba(0, 0, 0, 0.466);
+         }
+         header img{
+             width: 300px;
+             height: 50px;
+         }
+         nav{ 
              height:12em;
-
+             color: white;
          }
          section{
-         
-             height:21em;
+            color: white;
+            height:21em;
          }
          footer{
-            background: rgb(165, 207, 233);
-             color:rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.63);
+             color:rgb(255, 255, 255);
+             width: 98%;
              height:15em;
+             padding: 1%;
 
          }
          aside{
-          
-             color: rgb(0, 0, 0);
+             color: rgb(255, 255, 255);
              height:12em;
-
          }
          #articulo1{/* 
              background: rgb(241, 238, 238); */
-             color:rgb(15, 15, 15);
+             color:rgb(255, 255, 255);
              /* font-size: x-large; */
          }
          .articulov{
