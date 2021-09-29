@@ -82,3 +82,19 @@ footer {
   display: none; 
 }
 }
+@media screen and (max-width:700px){
+  body{
+    background: rgb(25, 125, 143);
+    }
+  .main{
+    width: 100%;
+    }
+  @media screen and (max-width:400px){
+    body{
+      background: rgb(185, 159, 155);
+    }
+  .main{
+       width: 100%;
+    }
+  }
+}
