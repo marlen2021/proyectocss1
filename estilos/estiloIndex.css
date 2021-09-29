@@ -48,26 +48,27 @@ body {
  }
 
  footer{
-    /* background:rgba(0, 0, 0, 0.726); */
-    color:rgb(255, 255, 255);
-     height:2em;
+      background:rgba(0, 0, 0, 0.288);
+      color:rgb(255, 255, 255);
+      height:2em;
  }
 
  @media screen and (max-width:800px){
-  body{
-      background: rgb(25, 125, 143);
-  }
-  .main{
-      width: 100%;
-  }
-  @media screen and (max-width:400px){
     body{
-        background: rgb(185, 159, 155);
-    }
+      background: rgb(25, 125, 143);
+      }
     .main{
-        width: 100%;
+      width: 100%;
+      }
+    @media screen and (max-width:400px){
+      body{
+        background: rgb(185, 159, 155);
+      }
+    .main{
+         width: 100%;
+      }
     }
-
+  }
 /*  aside{
      background: rgb(125, 192, 189);
      color: rgb(0, 0, 0);
