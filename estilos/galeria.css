@@ -23,20 +23,17 @@
           align-items: flex-end;
          }
          nav{
-             background: rgb(0, 0, 0);
              color: white;
              height:10em;
-
-         }
-         section{
-             
-             color:rgb(255, 255, 255);
-             height:2em;
          }
          footer{
             background:rgba(0, 0, 0, 0.885);
             color:rgb(255, 255, 255);
             height: 5em;
          }
+         div{
+            color: white;
+         }
+
         
          
