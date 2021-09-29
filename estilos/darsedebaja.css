@@ -16,17 +16,10 @@
              height:7em;
              width: 98%;
          }
-         #botones {
-             width: 58%;
-             background: rgba(0, 0, 0, 0.466);
-         }
-         header img{
-             width: 300px;
-             height: 50px;
-         }
-         nav{ 
-             height:12em;
-             color: white;
+         nav{
+           
+             height:13em;
+
          }
          section{
             color: white;
