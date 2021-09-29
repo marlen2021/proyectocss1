@@ -9,14 +9,6 @@ body {
     width: 100%;
     max-width: 1920px;
   }
-/*   body {
-    margin: 0;
-    padding: 0;
-    background: url(../imagenes/descarga\ \(3\).png) no-repeat center top;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-  } */
   header{
     background:rgba(0, 0, 0, 0.582);
      color:rgb(255, 255, 255);
@@ -41,10 +33,6 @@ body {
    padding: 5px;
    height: 3em; 
    /* background: rgba(0, 0, 0, 0.623); */
- }
- nav image{
-   background-color: black;
-   color: black;
  }
 
  footer{
