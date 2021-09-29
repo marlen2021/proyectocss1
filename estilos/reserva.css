@@ -28,23 +28,22 @@ header img{
   width: 90px;
   position:none;
   bottom:center;
-  
 }
-div{
+/* div{
 
-}
+} */
 body {
   margin: 0;
   padding: 0;
-  background: url(../imagenes/fondologin.jpg) no-repeat center top;
+  background: url(../imagenes/fondologin.jpg) center top;
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
 }
 
-#principal{ 
+/* #principal{ 
   background;
-}   
+}    */
 
 #content { 
   overflow:auto; 
@@ -67,6 +66,7 @@ body {
 }
 footer {
   background: rgba(0, 0, 0, 0.541);
+  color: white;
   padding: 25px;
 }
 
