@@ -1,12 +1,14 @@
 
         body{
             background-image: url(../imagenes/fondologin.jpg);
+            overflow: auto;
             height: 100%;
             margin: 0;
             padding: 0;
             background-size:inherit;
             font-family: sans-serif;
-            height: 100vh;   
+            background-repeat:inherit;
+           /*  height: 100vh;  */  
         }
  
         header{
