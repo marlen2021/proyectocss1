@@ -5,6 +5,8 @@ body {
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 
   }
   
