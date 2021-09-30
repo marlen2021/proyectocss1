@@ -4,6 +4,8 @@ header{
   align-content: center;
   height:7em;
   margin: 1%;
+  background-repeat: no-repeat;
+  background-attachment: fixed
 }
 header img{
   height: 50px;
@@ -39,6 +41,8 @@ body {
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed
 }
 
 /* #principal{ 
