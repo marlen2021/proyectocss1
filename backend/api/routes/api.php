@@ -17,6 +17,8 @@ use App\Http\Controllers\HabitacionController;
 |
 */
 Route::get('/cliente', [ClienteController::class, 'showAll']);
+Route::post('/cliente/signup', [ClienteController::class, 'signup']);
+Route::post('/cliente/login', [ClienteController::class, 'login']);
 /* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 }); */
