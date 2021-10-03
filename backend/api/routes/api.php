@@ -16,9 +16,17 @@ use App\Http\Controllers\HabitacionController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('/cliente', [ClienteController::class, 'showAll']);
+/* Route::get('/cliente', [ClienteController::class, 'showAll']); */
 Route::post('/cliente/signup', [ClienteController::class, 'signup']);
 Route::post('/cliente/login', [ClienteController::class, 'login']);
+
+
+Route::group(['middleware' => ['jwt.verify']], function(){
+    Route::get('/cliente', [ClienteController::class, 'showAll']);
+    Route::post('/cliente/update', [ClienteController::class, 'update']);
+    Route::post('/reservacion/create', [ReservaController::class, 'create']);
+    Route::get('/reservacion/history', [ReservaController::class, 'showByCliente']);
+});
 /* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 }); */
