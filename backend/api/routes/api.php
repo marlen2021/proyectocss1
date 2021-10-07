@@ -20,6 +20,7 @@ use App\Http\Controllers\HabitacionController;
 Route::post('/cliente/signup', [ClienteController::class, 'signup']);
 Route::post('/cliente/login', [ClienteController::class, 'login']);
 Route::get('/habitacion/search', [HabitacionController::class, 'search']);
+Route::post('/habitacion/filter', [HabitacionController::class, 'filter']);
 
 Route::group(['middleware' => ['jwt.verify']], function(){
     Route::get('/cliente', [ClienteController::class, 'showAll']);
