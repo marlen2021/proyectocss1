@@ -9,31 +9,6 @@ class HabitacionController extends Controller
 {
     public function search(Request $request)
     {
-
-/*        function filter(Request $request)
-        {
-             $filter = $request->input('filter');
-            switch($filter){
-                case 'piso':
-                    $habitaciones = Habitacion::whereBetween('piso', [$request->input('min'), $request->input('max')])->with(['hotel', 'tipo'])->get();
-                    break;
-                case 'precio':
-                    $habitaciones = Habitacion::whereBetween('precio', [$request->input('min'), $request->input('max')])->with(['hotel', 'tipo'])->get();
-                    break;
-                case 'capacidad':
-                    $habitaciones = Habitacion::where('capacidad', $request->input('value'))->with(['hotel', 'tipo'])->get();
-                    break;
-                case 'estrellas':
-                    $habitaciones = Habitacion::whereHas('hotel', function (Builder $query) use($request) {
-                        $query->where('estrellas', $request->input('value'));
-                    })->with(['hotel', 'tipo'])->get();
-                    break;
-                case 'minibar':
-                    $habitaciones = Habitacion::where('minibar', $request->input('value'))->with(['hotel', 'tipo'])->get();
-                    break;
-            }
-            return $habitaciones;
-        } */
         $text = $request->query('text');
         $habitaciones = Habitacion::whereHas('hotel', function (Builder $query) use($text) {
             $query->where('nombre', 'like', '%'.$text.'%');
@@ -41,6 +16,30 @@ class HabitacionController extends Controller
         return $habitaciones;
         /* return $request->query('text'); */
     }
+    public function filter(Request $request)
+    {
+    $filter = $request->input('filter');
+    switch($filter){
+        case 'piso':
+            $habitaciones = Habitacion::whereBetween('piso', [$request->input('min'), $request->input('max')])->with(['hotel', 'tipo'])->get();
+            break;
+        case 'precio':
+            $habitaciones = Habitacion::whereBetween('precio', [$request->input('min'), $request->input('max')])->with(['hotel', 'tipo'])->get();
+            break;
+        case 'capacidad':
+            $habitaciones = Habitacion::where('capacidad', $request->input('value'))->with(['hotel', 'tipo'])->get();
+            break;
+        case 'estrellas':
+            $habitaciones = Habitacion::whereHas('hotel', function (Builder $query) use($request) {
+                $query->where('estrellas', $request->input('value'));
+            })->with(['hotel', 'tipo'])->get();
+            break;
+        case 'minibar':
+            $habitaciones = Habitacion::where('minibar', $request->input('value'))->with(['hotel', 'tipo'])->get();
+            break;
+    }
+    return $habitaciones;
+} 
 
     /*
     *
