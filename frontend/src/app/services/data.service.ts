@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DataService {
-  private API = 'http://127.0.0.1:8000/api';
+  private API = 'https://backend-chekinbga.herokuapp.com/api/';
   constructor(
     private http:HttpClient
     ) { }

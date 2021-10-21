@@ -1,45 +1,50 @@
-<div>
-    <div class="container-fluid">
-        <div class="row mt-5 mb-4">
-            <div class="col-6 offset-3">
-                <div class="input-group">
-                    <input type="text" id="search" class="form-control" placeholder="Busqueda de habitaciones" [(ngModel)]="searchText">
-                    <button class="btn btn-outline-primary" type="button" id="search-btn" (click)="search()">
-                        <i class="fas fa-search"></i> Buscar
-                    </button>
-                </div> 
-            </div>                               
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row col-6 offset-3 my-4">  
-            <div class="col">
-                <div class="row">
-                    <div class="col-5">
-                        <label for="min_floor">Entre el piso</label> 
-                    </div>
-                    <div class="col-7">
-                        <input type="number" id="min_floor" class="form-control" (keyup)="piso($event)" [(ngModel)]="minFloor">
-                    </div>
-                </div>                    
+<body>
+    
+    <header> <img src="../../../assets/imagenes/checkinBGA.png" alt="checkinBGA">
+        <div class="center"><h1>Bienvenidos a CheckinBGA</h1></div>  
+    </header>
+    <div>
+        <div class="container-fluid">
+            <div class="row mt-5 mb-4">
+                <div class="col-6 offset-3">
+                    <div class="input-group">
+                        <input type="text" id="search" class="form-control" placeholder="Busqueda de habitaciones" [(ngModel)]="searchText">
+                        <button class="btn btn-outline-primary" type="button" id="search-btn" (click)="search()">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                    </div> 
+                </div>                               
             </div>
-            <div class="col">
-                <div class="row">
-                    <div class="col-5">
-                        <label for="max_floor">y el piso</label> 
-                    </div>
-                    <div class="col-7">
-                        <input type="number" id="max_floor" class="form-control" (keyup)="piso($event)" [(ngModel)]="maxFloor">
-                    </div>
-                </div>                    
-            </div>                                       
         </div>
-        <div class="row col-6 offset-3 my-4">  
-            <div class="col">
-                <div class="row">
-                    <div class="col-5">
-                        <label for="min_floor">Precio entre</label> 
-                    </div>
+        <div class="container-fluid">
+            <div class="row col-6 offset-3 my-4">  
+                <div class="col">
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="min_floor">Entre el piso</label> 
+                        </div>
+                        <div class="col-7">
+                            <input type="number" id="min_floor" class="form-control" (keyup)="piso($event)" [(ngModel)]="minFloor">
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="max_floor">y el piso</label> 
+                        </div>
+                        <div class="col-7">
+                            <input type="number" id="max_floor" class="form-control" (keyup)="piso($event)" [(ngModel)]="maxFloor">
+                        </div>
+                    </div>                    
+                </div>                                       
+            </div>
+            <div class="row col-6 offset-3 my-4">  
+                <div class="col">
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="min_floor">Precio entre</label> 
+                        </div>
                     <div class="col-7">
                         <input type="number" id="min_price" class="form-control" (keyup)="precio($event)" [(ngModel)]="minPrice">
                     </div>
@@ -98,3 +103,4 @@
         </div>
     </div>
 </div>
+</body>

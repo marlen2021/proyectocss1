@@ -6,6 +6,8 @@ use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\ReservaController;
 use App\Http\Controllers\HabitacionController;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
