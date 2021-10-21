@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Reserva;
 use App\Models\Hotel;
-use App\Models\Tipo_habitacion;
+/* use App\Models\Tipo_habitacion; */
 
 class Habitacion extends Model
 {

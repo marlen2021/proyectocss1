@@ -9,13 +9,29 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
+  form = new FormGroup({
+    doc: new FormControl(''),
+    nombre: new FormControl(''),
+    apellidos: new FormControl(''),
+    correo: new FormControl(''),
+    clave: new FormControl('')
+  });
 
   constructor(
-    private data:DataService) { 
+    private data:DataService,
+    private route:ActivatedRoute) { 
+
   }
 
   ngOnInit(): void {
-    this.data.saludar();
+    this.route.paramMap.subscribe(function(data){
+      let id = data.get('id');
+      console.log(id);
+    })
+  }
+  signup(){
+    this.data.signup(this.form.value).subscribe(function(data){
+    });
   }
 
 }

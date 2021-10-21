@@ -26,7 +26,7 @@ Route::group(['middleware' => ['jwt.verify']], function(){
     Route::get('/cliente', [ClienteController::class, 'showAll']);
     Route::post('/cliente/update', [ClienteController::class, 'update']);
     Route::post('/reservacion/create', [ReservaController::class, 'create']);
-    Route::post('/reservacion/history', [ReservaController::class, 'showByCliente']);
+    Route::get('/reservacion/history', [ReservaController::class, 'showByCliente']);
 });
 /* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

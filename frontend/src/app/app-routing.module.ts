@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-/* import { HomeComponent } from './components/home/home.component'; */
+import { HomeComponent } from './components/home/home.component'; 
 import { LoginComponent } from './components/login/login.component';
-/* import { ProfileComponent } from './components/profile/profile.component'; */
-/* import { ReservationComponent } from './components/reservation/reservation.component'; */
+import { ProfileComponent } from './components/profile/profile.component'; 
 import { SignupComponent } from './components/signup/signup.component';
+import { ReservationComponent } from './components/reservation/reservation.component';
 
 const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
-/*   { path: 'profile', component: ProfileComponent },
+  { path: 'profile', component: ProfileComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'reservation', component: ReservationComponent }, */
+  { path: 'reservation', component: ReservationComponent },  
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
